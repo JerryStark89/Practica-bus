@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.schedule-container {
+    width: 100%;
+    max-width: 800px;
+}
+.trip {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.trip img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.trip-info {
+    flex-grow: 1;
+}
+.trip h3 {
+    margin: 0;
+    color: #333;
+}
+.trip p {
+    margin: 5px 0;
+    color: #555;
+}
+.buy-button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+.buy-button:hover {
+    background-color: #0056b3;
+}
